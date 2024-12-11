@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header,
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .section-content {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#journey">Project Development</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2 class="section-title">Welcome</h2>
+            <p class="section-content">Welcome to my portfolio! This project showcases an innovative vending machine
+                system linked to a website. It’s designed to reward productivity with snacks, integrating advanced
+                features like real-time updates and Google authentication.</p>
+        </div>
+    </section>
+
+    <section id="project">
+        <div class="container">
+            <h2 class="section-title">Project Overview</h2>
+            <p class="section-content">This project motivates students and promotes productivity through a connected
+                vending machine and website. Key features include:</p>
+            <ul class="section-content">
+                <li>Google Sign-In for secure user authentication.</li>
+                <li>Snack cart with dynamic selection and real-time updates.</li>
+                <li>Secure point-based purchase system.</li>
+            </ul>
+            <p>Check out screenshots, the demo video, and the <a
+                    href="https://github.com/agnasa06/arnav.vending_machine.github.io">GitHub repository</a> for more
+                details.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-content">Hi, I’m Arnav, a passionate developer with expertise in TypeScript, Firebase, and
+                Vite. My goal is to create impactful projects that solve real-world problems. This project reflects my
+                dedication to learning and innovation.</p>
+            <p class="section-content">In the future, I aim to build more advanced systems and further my knowledge in
+                backend development and user-focused design.</p>
+        </div>
+    </section>
+
+    <section id="journey">
+        <div class="container">
+            <h2 class="section-title">Project Development</h2>
+            <p class="section-content">This section highlights my journey throughout the project:</p>
+            <ul class="section-content">
+                <li>Achieved milestones like MVP development and Firebase integration.</li>
+                <li>Overcame debugging challenges to ensure seamless functionality.</li>
+                <li>Incorporated mentor feedback to refine features.</li>
+                <li>Documented daily progress and key learnings.</li>
+            </ul>
+            <p class="section-content">Explore diagrams and screenshots for a deeper look into the development process.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Arnav | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
